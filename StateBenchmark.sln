@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib9c", "..\NineChronicles.Headless\Lib9c\Lib9c\Lib9c.csproj", "{C09C7174-ACAD-43B8-9A76-AF679A92F67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateBenchmark", "StateBenchmark\StateBenchmark.csproj", "{FEBD9C65-39A3-46CE-ACA2-41CFA21A5AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libplanet", "..\NineChronicles.Headless\Lib9c\.Libplanet\Libplanet\Libplanet.csproj", "{E4A92055-2868-4AE4-AB2C-6E4EEB23DE2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C09C7174-ACAD-43B8-9A76-AF679A92F67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09C7174-ACAD-43B8-9A76-AF679A92F67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09C7174-ACAD-43B8-9A76-AF679A92F67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09C7174-ACAD-43B8-9A76-AF679A92F67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBD9C65-39A3-46CE-ACA2-41CFA21A5AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBD9C65-39A3-46CE-ACA2-41CFA21A5AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBD9C65-39A3-46CE-ACA2-41CFA21A5AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBD9C65-39A3-46CE-ACA2-41CFA21A5AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A92055-2868-4AE4-AB2C-6E4EEB23DE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A92055-2868-4AE4-AB2C-6E4EEB23DE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A92055-2868-4AE4-AB2C-6E4EEB23DE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A92055-2868-4AE4-AB2C-6E4EEB23DE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

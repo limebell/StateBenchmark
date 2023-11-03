@@ -1,0 +1,2082 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lime_\\planetarium\\StateBenchmark\\StateBenchmark\\StateBenchmark.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj",
+        "projectName": "Libplanet.Action",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Bencodex.Json": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "Planetarium.LruCacheNet": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Bencodex.Json": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Planetarium.LruCacheNet": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Bencodex.Json": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "Planetarium.LruCacheNet": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj",
+        "projectName": "Libplanet.Common",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj",
+        "projectName": "Libplanet.Crypto",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "BouncyCastle.Cryptography": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "BouncyCastle.Cryptography": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "BouncyCastle.Cryptography": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.RocksDBStore\\Libplanet.RocksDBStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.RocksDBStore\\Libplanet.RocksDBStore.csproj",
+        "projectName": "Libplanet.RocksDBStore",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.RocksDBStore\\Libplanet.RocksDBStore.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.RocksDBStore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU5104"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Planetarium.RocksDbSharp": {
+              "target": "Package",
+              "version": "[6.2.6-planetarium, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.12.0.21095, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj",
+        "projectName": "Libplanet.Store",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Caching.dll": {
+              "target": "Package",
+              "version": "[1.4.0.1, )"
+            },
+            "ImmutableTrie": {
+              "target": "Package",
+              "version": "[1.0.0-alpha, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "Planetarium.LruCacheNet": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Zio": {
+              "target": "Package",
+              "version": "[0.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Caching.dll": {
+              "target": "Package",
+              "version": "[1.4.0.1, )"
+            },
+            "ImmutableTrie": {
+              "target": "Package",
+              "version": "[1.0.0-alpha, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Planetarium.LruCacheNet": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Zio": {
+              "target": "Package",
+              "version": "[0.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Caching.dll": {
+              "target": "Package",
+              "version": "[1.4.0.1, )"
+            },
+            "ImmutableTrie": {
+              "target": "Package",
+              "version": "[1.0.0-alpha, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "Planetarium.LruCacheNet": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Zio": {
+              "target": "Package",
+              "version": "[0.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj",
+        "projectName": "Libplanet.Types",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Crypto\\Libplanet.Crypto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Bencodex.Json": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Bcl.HashCode": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Bencodex.Json": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Bcl.HashCode": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Bencodex.Json": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Bcl.HashCode": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj": {
+      "version": "4.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj",
+        "projectName": "Libplanet",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Action\\Libplanet.Action.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Common\\Libplanet.Common.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Store\\Libplanet.Store.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.Types\\Libplanet.Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU5104"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "BouncyCastle.Cryptography": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Bcl.HashCode": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Norgerman.Cryptography.Scrypt": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.12.0.21095, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "BouncyCastle.Cryptography": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Bcl.HashCode": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Norgerman.Cryptography.Scrypt": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.12.0.21095, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.Threading.Channels": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Bencodex": {
+              "target": "Package",
+              "version": "[0.16.0, )"
+            },
+            "BouncyCastle.Cryptography": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Menees.Analyzers.2017": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Bcl.HashCode": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.DotNet.Analyzers.Compatibility": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.12-alpha, )"
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Norgerman.Cryptography.Scrypt": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.12.0.21095, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.Threading.Channels": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Abstractions\\Lib9c.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Abstractions\\Lib9c.Abstractions.csproj",
+        "projectName": "Lib9c.Abstractions",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Abstractions\\Lib9c.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Policy\\Lib9c.Policy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Policy\\Lib9c.Policy.csproj",
+        "projectName": "Lib9c.Policy",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Policy\\Lib9c.Policy.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Policy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Renderers\\Lib9c.Renderers.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Renderers\\Lib9c.Renderers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Renderers\\Lib9c.Renderers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Renderers\\Lib9c.Renderers.csproj",
+        "projectName": "Lib9c.Renderers",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Renderers\\Lib9c.Renderers.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Renderers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\Lib9c.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\Lib9c.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\Lib9c.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\Lib9c.csproj",
+        "projectName": "Lib9c",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\Lib9c.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet\\Libplanet.csproj",
+                "excludeAssets": "runtime"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Abstractions\\Lib9c.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Abstractions\\Lib9c.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[15.0.5, )"
+            },
+            "DecimalMath.DecimalEx": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "OptimizedPriorityQueue": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.38.0.46746, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lime_\\planetarium\\StateBenchmark\\StateBenchmark\\StateBenchmark.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lime_\\planetarium\\StateBenchmark\\StateBenchmark\\StateBenchmark.csproj",
+        "projectName": "StateBenchmark",
+        "projectPath": "C:\\Users\\lime_\\planetarium\\StateBenchmark\\StateBenchmark\\StateBenchmark.csproj",
+        "packagesPath": "C:\\Users\\lime_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lime_\\planetarium\\StateBenchmark\\StateBenchmark\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lime_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.RocksDBStore\\Libplanet.RocksDBStore.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\.Libplanet\\Libplanet.RocksDBStore\\Libplanet.RocksDBStore.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Policy\\Lib9c.Policy.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c.Policy\\Lib9c.Policy.csproj"
+              },
+              "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\Lib9c.csproj": {
+                "projectPath": "C:\\Users\\lime_\\planetarium\\NineChronicles.Headless\\Lib9c\\Lib9c\\Lib9c.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
